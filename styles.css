@@ -122,11 +122,12 @@ main {
         height: 31px;
         margin-top: 6px;
         margin-left: 240px;
-
         font-weight: 500;
         font-size: 12px;
         line-height: 100%;
         letter-spacing: 1px;
+        position: relative;
+        right: 45%;
     }
 
     h1 {
@@ -138,6 +139,8 @@ main {
         line-height: 30px;
         letter-spacing: 0.6px;
         text-align: center;
+        position: relative;
+        right: 55%;
     }
 
     p {
@@ -148,7 +151,8 @@ main {
         line-height: 33px;
         letter-spacing: 0.5px;
         text-align: center;
-
+        position: relative;
+        right: 60%;
     }
 
 
@@ -160,14 +164,19 @@ main {
         line-height: 100%;
         letter-spacing: 1px;
         text-align: center;
-        display: block;
-        margin-left: 70px;
+        display: center;
+        position: relative;
+        right: 8%;
+        
     }
 
     .logo-image {
         width: 312px;
         height: 288px;
-        margin: 10px 39px 22px;
+        position: relative;
+        right: 45%;
+        margin-top: 20px; 
+        margin-bottom: 20px;
     }
 
 }
